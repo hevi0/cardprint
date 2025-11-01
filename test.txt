@@ -1,0 +1,24 @@
+# Playing cards were obtained from https://commons.wikimedia.org/wiki/Category:Playing_cards_set_by_Byron_Knoll
+
+# Paper size US or A4
+US
+
+# DPI (300, 600, or 1200)
+300
+
+# Background color for borders around margins and inside blank cards
+# This helps give some room for error when cutting out the printed
+# cards
+255 255 255 255
+
+# Color of gutters between cards
+64 64 64 255
+
+# Draw rounded corners (1 or 0)
+1
+
+# A list of cards images to combine and generate the printable png
+./playingcards/King_of_hearts2.svg.png
+./playingcards/Queen_of_hearts2.svg.png
+./playingcards/Jack_of_hearts2.svg.png
+./playingcards/10_of_hearts.svg.png
