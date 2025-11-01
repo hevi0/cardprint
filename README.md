@@ -18,6 +18,8 @@ ER_SIZE (A4|US) (default US)]
 ```
 
 # Building
+This tool depends on SDL2 (https://www.libsdl.org/) and SDL_image to process PNGs.
+
 In a mingw64 environment or POSIX environment, you can just run the Makefile:
 ```
 make
@@ -32,3 +34,7 @@ Run as follows:
 ```
 
 You should see a `page01.png` that is the output.
+
+# Limitations that I think may be relevant
+- Only reads and writes PNG files
+- US Letter or A4 paper sizes supported
