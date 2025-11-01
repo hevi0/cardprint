@@ -24,4 +24,11 @@ make
 ```
 
 # Config file format
-The config
+See `test.txt` for an example that uses card images from the `playingcards` directory.
+
+Run as follows:
+```
+./build/cardprint test.txt
+```
+
+You should see a `page01.png` that is the output.

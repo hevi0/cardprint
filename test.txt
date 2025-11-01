@@ -1,4 +1,5 @@
 # Playing cards were obtained from https://commons.wikimedia.org/wiki/Category:Playing_cards_set_by_Byron_Knoll
+# See: https://byronknoll.blogspot.com/2011/03/vector-playing-cards.html
 
 # Paper size US or A4
 US
