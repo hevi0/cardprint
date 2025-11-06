@@ -24,7 +24,7 @@
     #define APPNAME() "app"
 #endif
 #define PAPERSIZE_PARAM_LEN 16
-#define PPI_PARAM_LEN 4
+#define PPI_PARAM_LEN 8
 #define MAX_PATHLEN 128
 #define CARDS_PER_PAGE 9
 #define MAX_NUM_PAGES 80 // Code assumes no more than 99 pages will be printed using this.
@@ -915,7 +915,7 @@ int main(int argc, char *argv[]) {
         char outputFilename[MAX_PATHLEN];
         sprintf(outputFilename, "%s%02d.png", outputPrefix, currPage+1);
         IMG_SavePNG(page, outputFilename);
-        update_png_dpi(outputFilename, outputFilename, ppi);
+        update_png_dpi(outputFilename, ppi);
         SDL_RenderClear(renderer);
         currPage++;
     }
